@@ -1,0 +1,201 @@
+/*************************************************************tag type************************************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: RGB(255, 255, 255);
+  color: #40514E;
+}
+
+h1 {
+  margin: 0;
+  color: #66BFBF;
+  margin-top: 10px;
+  font-size: 4.125rem;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #11999E;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    margin :  0 auto;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Orbitron', sans-serif;
+}
+
+span {
+  text-decoration: none;
+  height: 1px;
+  color: #ff9642;
+  border-bottom: dotted;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  width: 7%;
+  color: #F5B7B1;
+  margin: 40px auto ;
+}
+
+p {
+  margin: 00px;
+  color: black;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+
+/*********************************************class type********************************************************/
+/*
+.fire {
+  border-color: red;
+  border-style: solid;
+  border-radius: 100em;
+  margin: auto;
+  height: 200px;
+}
+*/
+.top-container {
+  background-color: #2d6187;
+  margin: 0;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.top-cloud {
+  position: relative;
+  top: 10px;
+  left: 400px;
+}
+
+.mountain {
+  margin-top: 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left:200px;
+}
+
+/**********************************************************MIDDLE CONTAINER****************************************************/
+.profile {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.middle-container {
+  margin: 00px;
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.MyImage {
+  width: 20%;
+  padding: 10px 00px;
+}
+
+
+.SkillImg {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.Fitness-Image {
+  width: 20%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row1 {
+  width: 100%;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.skill-row2 {
+  width: 100%;
+  margin: 80px auto;
+  text-align: left;
+  padding-top: 20px;
+}
+/************************************************************BOTTOM CONTAINER STARTED***************************************************/
+.BUTTON_FBQ {
+  margin-bottom: 20px;
+  background: #3D94F6;
+  background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+  background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Verdana;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_FBQ:hover {
+  border: solid #337FED 0;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #6971E7);
+  background-image: -moz-linear-gradient(top, #1E62D0, #6971E7);
+  background-image: -ms-linear-gradient(top, #1E62D0, #6971E7);
+  background-image: -o-linear-gradient(top, #1E62D0, #6971E7);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #6971E7);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.contact-me{
+  background-color: RGB(255, 255, 255);
+}
+
+.bottom-container {
+  background-color: #2d6187;
+  padding: 50PX 00PX ;
+
+}
+
+.footer-link {
+  margin-top: 20px;
+  color: powderblue;
+  display: inline-block;
+  padding: 00px 15px 00px 15px;
+  font-family: 'Montserrat' , sans-serif;
+  text-decoration: none;
+}
+.copyright{
+  padding: 30px 00px;
+  color: white;
+  font-weight: lighter ;
+  font-size: 0.75rem;
+}
+.footer-link:hover{
+  color:#CF3F1C;
+}
+/********************************************************id tags***************************************************************/
